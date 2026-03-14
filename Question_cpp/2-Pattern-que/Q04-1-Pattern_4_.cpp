@@ -11,7 +11,7 @@
 using namespace std;
 int main(){
     int n;
-    cout<<"Enter the number of start to print ";
+    cout<<"Enter the number of raw to print ";
     cin>>n;
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n-i;j++){
