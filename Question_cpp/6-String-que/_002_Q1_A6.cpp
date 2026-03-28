@@ -28,25 +28,25 @@
 // There are 5 words in the string.
 
 //solution 1
-#include <iostream>
-#include <string>
-using namespace std;
-int main() {
-    string s;
-    cin >> s;
-    string word = "";
-    for (char c : s) {
-        if (isupper(c) && !word.empty()) {
-            cout << word << endl;
-            word = "";
-        }
-        word += c;
-    }
-    if (!word.empty()) {
-        cout << word << endl;
-    }
-    return 0;
-}
+// #include <iostream>
+// #include <string>
+// using namespace std;
+// int main() {
+//     string s;
+//     cin >> s;
+//     string word = "";
+//     for (char c : s) {
+//         if (isupper(c) && !word.empty()) {
+//             cout << word << endl;
+//             word = "";
+//         }
+//         word += c;
+//     }
+//     if (!word.empty()) {
+//         cout << word << endl;
+//     }
+//     return 0;
+// }
 
 //solution 2
 #include <iostream>
