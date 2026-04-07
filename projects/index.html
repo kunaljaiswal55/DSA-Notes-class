@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Focus Reset</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🔥 Focus Reset</h1>
+
+<!-- TIMER -->
+<div class="timer">
+  <h2 id="time">25:00</h2>
+  <button onclick="startTimer()">Start</button>
+  <button onclick="resetTimer()">Reset</button>
+</div>
+
+<p>Cycles Completed: <span id="cycles">0</span></p>
+
+<!-- QUADRANTS -->
+<div class="grid">
+
+  <!-- MENTAL -->
+  <div class="card">
+    <h3>🧠 Mental</h3>
+    <input type="text" id="studyInput" placeholder="What did you study?">
+    <button onclick="addStudy()">Add</button>
+    <ul id="studyList"></ul>
+  </div>
+
+  <!-- FINANCIAL -->
+  <div class="card">
+    <h3>💰 Financial</h3>
+    <input type="number" id="moneyInput" placeholder="Enter amount">
+    <button onclick="addMoney()">Add</button>
+    <ul id="moneyList"></ul>
+  </div>
+
+  <!-- SOCIAL -->
+  <div class="card">
+    <h3>🧑‍🤝‍🧑 Social</h3>
+    <input type="text" id="socialInput" placeholder="Activity / Mood">
+    <button onclick="addSocial()">Add</button>
+    <ul id="socialList"></ul>
+  </div>
+
+  <!-- PHYSICAL -->
+  <div class="card">
+    <h3>💪 Physical</h3>
+    <input type="text" id="physicalInput" placeholder="Gym / Food / Skin care">
+    <button onclick="addPhysical()">Add</button>
+    <ul id="physicalList"></ul>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
