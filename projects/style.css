@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color: #8b5cf6;
+}
+
+.timer {
+  margin: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background: #8b5cf6;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  width: 70%;
+}
